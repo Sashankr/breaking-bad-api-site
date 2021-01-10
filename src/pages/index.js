@@ -11,7 +11,7 @@ const Home = ({data})=>{
       <h1>Breaking Bad Characters</h1>
       <div className="cards">
         {(data.allCustomApi.nodes).map((characterData)=>{
-          return <Card key={characterData.id} {...characterData}/>
+          return <Card  key={characterData.char_id} {...characterData}/>
         })}
       </div>
     </Layout>
@@ -23,7 +23,7 @@ export const query = graphql`
 query{
     allCustomApi{
     nodes{
-      img,name,occupation,portrayed,id
+      img,name,occupation,portrayed,id,char_id
     }
   }
 }
