@@ -4,8 +4,6 @@ import '../sass/main.scss';
 
 const Card = (props)=>{
 
-
-
   let {img,name,occupation,portrayed} =props;
   if(occupation.length>1){
     occupation = occupation.splice(0,1);
