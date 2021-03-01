@@ -1,3 +1,10 @@
+# Project Features : 
+
+1. Displays all Breaking Bad Characters in card format
+2. Each character has his own details page
+3. Filter option to filter between Breaking Bad and Better Call Saul Characters
+4. Pagination
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
